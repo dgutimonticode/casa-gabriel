@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa Gabriel — Tu Hogar Soñado</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVEGACIÓN -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">Casa Gabriel</div>
+    <ul class="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#caracteristicas">Características</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-tag">Propiedad Exclusiva</span>
+      <h1 class="hero-title">Bienvenido a<br><em>Casa Gabriel</em></h1>
+      <p class="hero-subtitle">Una residencia diseñada para quienes aprecian la calidez, el confort y los detalles que hacen de un lugar un verdadero hogar.</p>
+      <div class="hero-actions">
+        <a href="#caracteristicas" class="btn btn-primary">Descubrir más</a>
+        <a href="#contacto" class="btn btn-secondary">Agendar visita</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">280</span>
+          <span class="stat-label">m² totales</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">4</span>
+          <span class="stat-label">dormitorios</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">3</span>
+          <span class="stat-label">baños</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">2</span>
+          <span class="stat-label">garajes</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Desliza hacia abajo</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- CARACTERÍSTICAS -->
+  <section class="features" id="caracteristicas">
+    <div class="section-header">
+      <span class="section-tag">Lo que nos distingue</span>
+      <h2>Cada detalle,<br><em>pensado para ti</em></h2>
+      <p>Casa Gabriel combina arquitectura contemporánea con la calidez de un hogar tradicional.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card" data-delay="0">
+        <div class="feature-icon">🏡</div>
+        <h3>Arquitectura Única</h3>
+        <p>Diseño exclusivo que armoniza espacios interiores y exteriores, creando una experiencia de vida sin igual.</p>
+      </div>
+      <div class="feature-card" data-delay="100">
+        <div class="feature-icon">🌿</div>
+        <h3>Jardín Privado</h3>
+        <p>Amplio jardín con árboles maduros, zona de barbacoa y piscina. Tu propio oasis de tranquilidad.</p>
+      </div>
+      <div class="feature-card" data-delay="200">
+        <div class="feature-icon">☀️</div>
+        <h3>Luz Natural</h3>
+        <p>Ventanales de piso a techo que inundan cada habitación de luz natural durante todo el día.</p>
+      </div>
+      <div class="feature-card" data-delay="300">
+        <div class="feature-icon">🍳</div>
+        <h3>Cocina Gourmet</h3>
+        <p>Cocina totalmente equipada con electrodomésticos de alta gama, isla central y materiales premium.</p>
+      </div>
+      <div class="feature-card" data-delay="400">
+        <div class="feature-icon">🔒</div>
+        <h3>Seguridad Total</h3>
+        <p>Sistema de seguridad inteligente, cámaras perimetrales y acceso controlado las 24 horas.</p>
+      </div>
+      <div class="feature-card" data-delay="500">
+        <div class="feature-icon">📍</div>
+        <h3>Ubicación Privilegiada</h3>
+        <p>En el corazón de una urbanización tranquila, a 10 minutos del centro y con acceso rápido a servicios.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="gallery" id="galeria">
+    <div class="section-header light">
+      <span class="section-tag">Tour visual</span>
+      <h2>Conoce cada<br><em>rincón de tu hogar</em></h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item large" data-room="Sala Principal">
+        <div class="gallery-img sala"></div>
+        <div class="gallery-label">Sala Principal</div>
+      </div>
+      <div class="gallery-item" data-room="Cocina">
+        <div class="gallery-img cocina"></div>
+        <div class="gallery-label">Cocina Gourmet</div>
+      </div>
+      <div class="gallery-item" data-room="Dormitorio">
+        <div class="gallery-img dormitorio"></div>
+        <div class="gallery-label">Suite Principal</div>
+      </div>
+      <div class="gallery-item" data-room="Jardín">
+        <div class="gallery-img jardin"></div>
+        <div class="gallery-label">Jardín y Piscina</div>
+      </div>
+      <div class="gallery-item" data-room="Baño">
+        <div class="gallery-img bano"></div>
+        <div class="gallery-label">Baño Principal</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRECIO -->
+  <section class="pricing">
+    <div class="pricing-content">
+      <div class="pricing-text">
+        <span class="section-tag">Inversión</span>
+        <h2>Una propiedad que<br><em>vale cada centavo</em></h2>
+        <p>Precio competitivo para una propiedad de esta categoría. Financiamiento disponible con las mejores condiciones del mercado.</p>
+        <ul class="pricing-includes">
+          <li>✓ Todos los electrodomésticos incluidos</li>
+          <li>✓ Muebles de cocina y baños</li>
+          <li>✓ Sistema de seguridad instalado</li>
+          <li>✓ Escrituras y trámites incluidos</li>
+        </ul>
+      </div>
+      <div class="pricing-card">
+        <span class="price-label">Precio de venta</span>
+        <div class="price-amount">$485,000</div>
+        <span class="price-currency">USD</span>
+        <div class="price-divider"></div>
+        <p class="price-note">Financiamiento hasta 30 años disponible</p>
+        <a href="#contacto" class="btn btn-primary full-width">Solicitar información</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact" id="contacto">
+    <div class="section-header">
+      <span class="section-tag">Hablemos</span>
+      <h2>Agenda tu visita<br><em>hoy mismo</em></h2>
+      <p>Nuestro equipo está listo para mostrarte cada rincón de esta hermosa propiedad.</p>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <div class="contact-item">
+          <span class="contact-icon">📞</span>
+          <div>
+            <strong>Teléfono</strong>
+            <p>+1 (555) 123-4567</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">✉️</span>
+          <div>
+            <strong>Email</strong>
+            <p>info@casagabriel.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📍</span>
+          <div>
+            <strong>Ubicación</strong>
+            <p>Urbanización Los Pinos, Calle Gabriel #42</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">🕐</span>
+          <div>
+            <strong>Horario de visitas</strong>
+            <p>Lunes a Sábado, 9:00 — 18:00</p>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" placeholder="Tu nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" placeholder="tu@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" placeholder="+1 (555) 000-0000">
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" rows="4" placeholder="Me gustaría agendar una visita para..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">
+          Enviar solicitud
+        </button>
+        <div id="formMessage" class="form-message"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3>Casa Gabriel</h3>
+        <p>Tu hogar soñado te está esperando.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Casa Gabriel. Desplegado automáticamente con GitHub Actions & Amazon S3.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
