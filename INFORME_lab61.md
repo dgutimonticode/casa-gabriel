@@ -91,84 +91,84 @@ Se creó un usuario IAM exclusivo para GitHub Actions con acceso solo al bucket 
 
 ### 3.1 Bucket S3 creado y configurado
 
-> 📸 _Insertar captura del bucket S3 en la consola de AWS_
+![Bucket S3 en la consola de AWS](img/3.1.png)
 
 ---
 
 ### 3.2 Static Website Hosting habilitado
 
-> 📸 _Insertar captura de Properties → Static website hosting habilitado con index.html_
+![Static website hosting habilitado](img/3.2.png)
 
 ---
 
 ### 3.3 Política de bucket configurada
 
-> 📸 _Insertar captura de Permissions → Bucket policy con PublicReadGetObject_
+![Bucket policy configurada](img/3.3.png)
 
 ---
 
 ### 3.4 Usuario IAM creado
 
-> 📸 _Insertar captura del usuario github-actions-s3-deploy en IAM_
+![Usuario IAM creado](img/3.4.png)
 
 ---
 
 ### 3.5 Secretos y variables en GitHub
 
-> 📸 _Insertar captura de Settings → Secrets mostrando AWS_ACCESS_KEY_ID y AWS_SECRET_ACCESS_KEY_
+![Secrets en GitHub](img/3.5.1.png)
 
-> 📸 _Insertar captura de Settings → Variables mostrando AWS_REGION y AWS_S3_BUCKET_
+![Variables en GitHub](img/3.5.2.png)
 
 ---
 
 ### 3.6 Pipeline ejecutándose en Actions
 
-> 📸 _Insertar captura del workflow corriendo en la pestaña Actions_
+![Pipeline ejecutandose](img/3.6.png)
 
 ---
 
 ### 3.7 Pipeline exitoso con todos los steps
 
-> 📸 _Insertar captura del workflow completado con ✅ en cada step_
+![Pipeline exitoso](img/3.7.png)
 
 ---
 
 ### 3.8 Archivos sincronizados en el bucket
 
-> 📸 _Insertar captura de S3 → Objects mostrando index.html, css/ y js/_
+![Archivos en el bucket](img/3.8.png)
 
 ---
 
 ### 3.9 Sitio web funcionando en URL de S3
 
-> 📸 _Insertar captura del navegador mostrando Casa Gabriel en la URL de S3_
+![Sitio en URL de S3](img/3.9.png)
 
 ---
 
 ### 3.10 Distribución de CloudFront configurada
 
-> 📸 _Insertar captura de CloudFront mostrando la distribución activa_
+![Distribucion CloudFront](img/3.10.png)
 
 ---
 
 ### 3.11 Sitio web funcionando en URL de CloudFront (HTTPS)
 
-> 📸 _Insertar captura del navegador con HTTPS en la URL de CloudFront_
+![Sitio en URL de CloudFront](img/3.11.png)
 
 ---
 
 ### 3.12 Fallo intencional corregido
 
-> 📸 _Insertar captura del workflow fallando ❌ y luego el fix ✅_
+![Fallo intencional corregido](img/3.12.png)
 
 ---
 
 ## 4. URLs del proyecto
 
 | Entorno | URL |
-|---|---|
-| S3 (HTTP) | `http://NOMBRE-BUCKET.s3-website-REGION.amazonaws.com` |
-| CloudFront (HTTPS) | `https://XXXXXXXXXX.cloudfront.net` |
+|---|----|
+| S3 (HTTP) | `http://casa-gabriel-12548078.s3-website-us-east-1.amazonaws.com` |
+| CloudFront (HTTPS) | `https://d38w0yevjrvs7s.cloudfront.net` |
 
 ---
 
